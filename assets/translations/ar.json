@@ -1,5 +1,14 @@
 {
   "question_text": "ما هي عاصمة فرنسا؟",
   "share_screenshot": "مشاركة لقطة الشاشة",
-  "score_label": "النتيجة: 90"
+  "score_label": "النتيجة: 90",
+  "Contact Us": "اتصل بنا",
+  "We would love to hear from you! If you have any questions or concerns, feel free to reach out to us.": "نود سماع آرائكم! إذا كانت لديكم أي أسئلة أو استفسارات، لا تترددوا في التواصل معنا.",
+  "Email": "البريد الإلكتروني",
+  "Phone": "الهاتف",
+  "Address": "العنوان",
+  "Follow Us": "تابعنا",
+  "Message Us": "راسلنا",
+  "Your Message": "رسالتك",
+  "Send Message": "إرسال الرسالة"
 }

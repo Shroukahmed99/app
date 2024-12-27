@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:heart_app/utils/consts.dart';
 
 class CustomProgressLinearIndicator extends StatelessWidget {
   final double progress;
   final double height;
   final Color progressColor;
   final Color backgroundColor;
+
   const CustomProgressLinearIndicator({
     Key? key,
     required this.progress,
     this.height = 16,
-    this.progressColor = green,
-    this.backgroundColor = grey,
+    this.progressColor = Colors.green, // يمكنك تخصيص اللون حسب الحاجة
+    this.backgroundColor = Colors.grey, // يمكنك تخصيص اللون حسب الحاجة
   }) : super(key: key);
 
   @override

@@ -1,5 +1,14 @@
 {
   "question_text": "What is the capital of France?",
   "share_screenshot": "Share Screenshot",
-  "score_label": "Score: 90"
+  "score_label": "Score: 90",
+  "Contact Us": "Contact Us",
+  "We would love to hear from you! If you have any questions or concerns, feel free to reach out to us.": "We would love to hear from you! If you have any questions or concerns, feel free to reach out to us.",
+  "Email": "Email",
+  "Phone": "Phone",
+  "Address": "Address",
+  "Follow Us": "Follow Us",
+  "Message Us": "Message Us",
+  "Your Message": "Your Message",
+  "Send Message": "Send Message"
 }
