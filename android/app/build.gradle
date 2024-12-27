@@ -1,0 +1,49 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'
+    }
+}
+
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.heart_app"
+    compileSdk = 34 // تأكد من توافق هذا مع Flutter
+    ndkVersion = "23.1.7779620" // تأكد من إذا كنت بحاجة لهذه القيمة
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.heart_app"
+        minSdk = 21  // تأكد من أنه متوافق مع إصدار Flutter
+        targetSdk = 33  // تأكد من أنه متوافق مع إصدار Flutter
+        versionCode = 1  // أو أي قيمة تناسبك
+        versionName = "1.0.0"  // أو أي قيمة تناسبك
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug // قم بتعديل هذا إذا كنت تستخدم توقيع خاص
+        }
+    }
+}
+
+flutter {
+    source = "../.."  // تأكد من مسار المشروع
+}
